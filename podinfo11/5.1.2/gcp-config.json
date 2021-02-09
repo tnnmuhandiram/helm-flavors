@@ -1,0 +1,40 @@
+{
+    "default_value_array": [
+        {
+          "path": "replicaCount",
+          "value": 1,
+          "description":"",
+          "regex":[]
+        },
+        {
+          "path": "ui.color",
+          "value": "#34577c",
+          "description":"",
+          "regex":[]
+        },
+        {
+          "path": "ui.logo",
+          "value": "",
+          "description":"",
+          "regex":[]
+        },
+        {
+          "path": "ingress.enabled",
+          "value": false,
+          "description":"",
+          "regex":[]
+        },
+        {
+          "path": "resources.requests.cpu",
+          "value": "1m",
+          "description":"",
+          "regex":[]
+        },
+        {
+          "path": "resources.requests.memory",
+          "value": "16Mi",
+          "description":"",
+          "regex":[]
+        }
+    ]
+}
