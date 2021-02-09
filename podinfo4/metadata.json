@@ -1,5 +1,5 @@
 {
-  "display_name": "podinfo",
+  "repository_name": "stefanprodan",
   "repository": "https://stefanprodan.github.io/podinfo",
   "chart_name": "podinfo",
   "logo_image": "https://artifacthub.io/static/media/placeholder_pkg_helm.png",
