@@ -46,11 +46,11 @@ See [etcdctl][etcdctl] for a simple command line client.
 {
   "default_value_array": [
       {
-        "path": YAML OR JSON PATH FOR THE VARIABLE -  | ,
-        "value": VALUE FOR THE VARIABLE -  | required,
-        "description": SMALL DESCRIPTION FOR DEFAULT VALUE - text | optional,
-        "cluster_resources": SPECIAL CLUSTER RESOURCES - string | optional,
-        "regex":  array | optional
+        "path": "persistentVolume.enable",
+        "value": false,
+        "description":"",
+        "cluster_resources": "",
+        "regex":[]
       }
   ]
 }
