@@ -1,7 +1,0 @@
-{
-  "repository_name": "hkube",
-  "repository": "https://hkube.io/helm/",
-  "chart_name": "etcd",
-  "logo_image": "https://hkube.io/img/home/top-logo.svg",
-  "description": "Hkube is a cloud-native open-source framework to run a distributed pipeline of algorithms built on Kubernetes. Hkube allows running pipelines of algorithms on Kubernetes cluster optimally utilizing the available resources, based on user priorities and AI heuristics."
-}
