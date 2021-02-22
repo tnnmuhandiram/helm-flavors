@@ -1,7 +1,0 @@
-{
-  "repository_name": "stefanprodan",
-  "repository": "https://stefanprodan.github.io/podinfo",
-  "chart_name": "podinfo",
-  "logo_image": "https://artifacthub.io/static/media/placeholder_pkg_helm.png",
-  "description": "Podinfo is a tiny web application made with Go that showcases best practices of running microservices in Kubernetes."
-}

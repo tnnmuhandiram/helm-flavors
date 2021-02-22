@@ -1,4 +1,4 @@
-values_yaml:
+valuesYaml:
   global:
     registry: ''
     ingress:
