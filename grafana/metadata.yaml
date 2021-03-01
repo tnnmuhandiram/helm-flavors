@@ -1,0 +1,5 @@
+repositoryName: grafana
+repository: https://github.com/grafana/helm-charts
+chartName: grafana
+logoImage: https://artifacthub.io/image/4b3cec11-0e89-4c28-9ec0-1b78eff5c6ed
+description: Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.

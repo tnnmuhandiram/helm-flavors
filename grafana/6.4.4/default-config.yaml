@@ -1,0 +1,16 @@
+defaultValueArray:
+- path: persistence.storageClassName
+  value: default
+  description: Kubernetes Storage Class
+  clusterResources: 'k8s-storage-class'
+  regex: []
+- path: adminUser
+  value: admin
+  description: Grafana admin login
+  clusterResources: ''
+  regex: []
+- path: adminPassword
+  value: strongpassword
+  description: Grafana admin Password
+  clusterResources: ''
+  regex: []
