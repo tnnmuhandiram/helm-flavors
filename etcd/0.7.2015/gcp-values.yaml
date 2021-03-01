@@ -1,42 +1,41 @@
-valuesYaml:
-  global:
-    registry: ''
-    ingress:
-      use_regex: true
-    image_pull_secret: {}
-  etcd_ui:
-    service:
-      type: ClusterIP
-      port: '8080'
-    image:
-      repository: hkube/etcd-ui
-      tag: v1.0.3
-    ingress:
-      enabled: true
-      path: "/hkube/etcd-ui"
-    nodeSelector: {}
-  peerPort: 2380
-  clientPort: 2379
-  component: etcd
-  replicas: 3
+global:
+  registry: ''
+  ingress:
+    use_regex: true
+  image_pull_secret: {}
+etcd_ui:
+  service:
+    type: ClusterIP
+    port: '8080'
   image:
-    repository: hkube/etcd
-    tag: 3.3.1
-    pullPolicy: IfNotPresent
-  resources: {}
-  auth:
-    client:
-      secureTransport: false
-      enableAuthentication: false
-    peer:
-      secureTransport: false
-      useAutoTLS: false
-      enableAuthentication: false
-  persistentVolume:
-    enabled: false
-    storage: 1Gi
-  memoryMode: false
+    repository: hkube/etcd-ui
+    tag: v1.0.3
+  ingress:
+    enabled: true
+    path: "/hkube/etcd-ui"
   nodeSelector: {}
-  tolerations: []
-  affinity: {}
-  extraEnv: []
+peerPort: 2380
+clientPort: 2379
+component: etcd
+replicas: 3
+image:
+  repository: hkube/etcd
+  tag: 3.3.1
+  pullPolicy: IfNotPresent
+resources: {}
+auth:
+  client:
+    secureTransport: false
+    enableAuthentication: false
+  peer:
+    secureTransport: false
+    useAutoTLS: false
+    enableAuthentication: false
+persistentVolume:
+  enabled: false
+  storage: 1Gi
+memoryMode: false
+nodeSelector: {}
+tolerations: []
+affinity: {}
+extraEnv: []
